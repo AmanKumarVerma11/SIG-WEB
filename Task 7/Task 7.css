@@ -1,0 +1,50 @@
+.val{
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif, bold, Arial, Helvetica;
+    font-size: 14px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  div input {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  form {
+    width: 400px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(255, 214, 161);
+  }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+  form input {
+    padding: 10px;
+  }
+  form select {
+    background-color: #ffffff;
+    padding: 5px;
+  }
+  form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+.submit {
+    background-color: rgb(103, 254, 136);
+    font-size: 14px;
+}
+
+.reset {
+    background-color: rgb(143, 175, 255);
+    font-size: 14px;
+}
