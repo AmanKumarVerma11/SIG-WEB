@@ -60,6 +60,7 @@ class Timer {
 
       if (this.remainingSeconds === 0) {
         this.stop();
+        alert("Time Over");
       }
     }, 1000);
 
